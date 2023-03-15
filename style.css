@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+  }
+  body {
+    height: 100vh;
+    background-color: #f0ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 3.5em;
+  }
+  .subTitles {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+  }
+  #break-label,
+  #session-label {
+    margin: 40px 40px 0 40px;
+  }
+  .break-adjustment,
+  .session-adjustment {
+    display: flex;
+    justify-content: center;
+    
+  }
+  #break-length,
+  #session-length {
+    margin: 10px;
+  }
+  #break-decrement,
+  #session-decrement,
+  #break-increment,
+  #session-increment {
+    font-size: 1em;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 6px;
+  }
+  #break-decrement:hover,
+  #session-decrement:hover,
+  #break-increment:hover,
+  #session-increment:hover {
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .display {
+    border: 1px solid #a1b5b5;
+    border-radius: 20px;
+    padding: 30px 30px 20px 30px;
+    margin: 20px 0 10px 0; 
+  }
+  #timer-label{
+    text-align: center;
+    font-size: 2em;
+  }
+  #time-left {
+    font-size: 5em;
+  }
+  .buttons {
+    display: flex;
+    font-size: 1.5em;
+  }
+  #start_stop,
+  #reset {
+    margin: 5px 20px 20px 20px;
+  }
+  #start_stop:hover,
+  #reset:hover {
+    cursor: pointer;
+    font-weight: 600;
+  }
